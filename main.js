@@ -4,7 +4,7 @@ function realismGo() {
    ui.notification.show("This addon is not longer being updated. At some point I'll have an addon manager that allows you to *select* which of the Realism Pack's </br> features you would like to use.")
 }
 
-console.log("Original scripts for immersion SFX, stall buffet, carrier catapults, shaders, and lift-based wingflex from AriakimTaiyo, Livery Selector and 3.5+ spoilers arming from Kolos26");
+console.log("Original scripts for immersion SFX, stall buffet, carrier catapults, shaders, and lift-based wingflex from AriakimTaiyo, Livery Selector and 3.5+ spoilers arming from goatnaidu06");
 
 
 function gBreath() {
@@ -386,7 +386,7 @@ setInterval(
         runTrueKias();
     };
     var scriptML = document.createElement("script");
-    scriptML.src = "https://raw.githack.com/kolos26/GEOFS-LiverySelector/main/main.js";
+    scriptML.src = "https://raw.githack.com/goatnaidu06/GEOFS-LiverySelector/main/main.js";
     document.body.appendChild(scriptML);
     localStorage.favorites = "";
     ui.notification.show("Favorite livery selections are possibly not saved at this time.")
@@ -414,7 +414,7 @@ setInterval(
     };checkOverlayInt = setInterval(function(){checkOverlays()},1000)
     
     console.log("Original immersion SFX scripts copyright Ariakim Taiyo");
-    console.log("Modified by NVB9 and Kolos26");
+    console.log("Modified by NVB9 and goatnaidu06");
     
     //variable to tell if the script has run or not
     var b737Sounds = 0
@@ -505,7 +505,7 @@ setInterval(
                 clearInterval(flexInterval);
         //running the script
         var a320script = document.createElement('script'); 
-        a320script.src="https://raw.githack.com/kolos26/geofs-a320neo-sounds-byAriakimTaiyo/main/sounds.js";
+        a320script.src="https://raw.githack.com/goatnaidu06/geofs-a320neo-sounds-byAriakimTaiyo/main/sounds.js";
         document.body.appendChild(a320script);
     
         //script has run now, so we change scriptHasRun to avoid having the script execute multiple times per aircraft instance
